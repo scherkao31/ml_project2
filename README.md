@@ -33,9 +33,12 @@ python data_creation/create_cut_data_sets.py
 ### Generate sequence features using ProtBert
 
 Generating sequence features using the ProtBert from amazon takes a long time, therefore we decided to create all features needed in on go and store them in csv files.
+
 Due to limited computational power, we had to save the features for every 10 sequences, and couldn't create just one big files.
 To recreate those files, you should run the following :
+
 If the following folders are not already created :
+
 ```bash
 mkdir data_bert_600 data_bert_215 cut/cut_bert
 ```
@@ -43,6 +46,8 @@ mkdir data_bert_600 data_bert_215 cut/cut_bert
 ```bash
 mkdir data_bert_600/train data_bert_600/val data_bert_215/train data_bert_215/val cut/cut_bert/cut_5 cut/cut_bert/cut_10 cut/cut_bert/cut_20 cut/cut_bert/cut_50
 ```
+
+Then run :
 
 ```bash
 python3 sequence_to_bert_features.py
