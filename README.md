@@ -55,8 +55,5 @@ python3 sequence_to_bert_features.py
 
 ## Requirements
 
-To install requirements:
-
-```bash
-pip3 install -r requirements.txt
-```
+Make sure that following library are installed :
+pytorch, pandas, sklearn, re
