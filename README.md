@@ -52,6 +52,10 @@ Then run :
 ```bash
 python3 sequence_to_bert_features.py
 ```
+## Recreate our results
+
+To use our models and recreate our results, you should follow the notebook NAAAAMMMMMEEE which is already quite self-explenatory.
+
 
 ## Requirements
 
