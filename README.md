@@ -1,5 +1,10 @@
 # Prediction of the effect of a mutation in an amido acid sequence
 
+## Requirements
+
+```bash
+mkdir data figure
+```
 
 ## Generate the Data files
 
@@ -9,4 +14,12 @@ To create those datasets, make that the provided files'mut_effect_train.csv' and
 
 ```bash
 python create_data_sets.py
+```
+
+## Requirements
+
+To install requirements:
+
+```bash
+pip3 install -r requirements.txt
 ```
