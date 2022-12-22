@@ -6,8 +6,8 @@ import pandas as pd
 
 # PLEASE CREATE A CUT FOLDER BEFORE RUNNING THIS FILE AND MAKE SURE OF ALL THE DIRECTORIES
 
-train_set = torch.load('train_set_215.csv')
-val_set = torch.load('val_set_215.csv')
+train_set = torch.load('datasets/train_set_215.csv')
+val_set = torch.load('datasets/val_set_215.csv')
 
 def cut_len(data, len_seq):
     
