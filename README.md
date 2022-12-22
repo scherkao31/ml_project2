@@ -60,7 +60,7 @@ python3 sequence_to_bert_features.py
 ```
 ## Recreate our results
 
-To use our models and recreate our results, you should follow the notebooks method_1-2.ipynb and method_3.ipynb which are already quite self-explenatory.
+To use our models and recreate our results, you should follow the notebooks method_1-2.ipynb and method_3.ipynb which are already quite self-explainnatory.
 
 
 ## Requirements
