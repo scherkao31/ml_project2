@@ -4,7 +4,7 @@
 ## Generate the Data files
 
 ### Main datasets
-First, you need to download the file datasets/uniprot_fasta_sequences.csv contained in https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing and put it in the folder 'datasets' of the repo (or download the full folder 'datasets' in the drive and replace the repo one), since the file is too big to upload on git.
+First, you need to download the folder datasets contained in https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing and put it in the repo (or download the full folder 'datasets'.
 
 N.B. : You can skip all the following generation of data by downloading the folders 'data' and 'datasets' contained in the drive https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing
 
