@@ -36,7 +36,7 @@ python data_creation/create_cut_data_sets.py
 
 ### Generate sequence features using ProtBert
 
-N.B.: Generate sequence features using ProtBert is a very expensive and long process, with invite you to download the data folder contained in https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing and put in cloned repo.
+N.B.: Generate sequence features using ProtBert is a very expensive and long process, we invite you to download directly the necessary featues by downloading the data folder contained in https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing and put in cloned repo.
 
 Generating sequence features using the ProtBert from amazon takes a long time, therefore we decided to create all features needed in on go and store them in csv files.
 
