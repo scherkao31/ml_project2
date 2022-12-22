@@ -67,4 +67,5 @@ To use our models and recreate our results, you should follow the notebook FINAL
 ## Requirements
 
 Make sure that following library are installed :
-pytorch, pandas, sklearn, re
+
+pytorch, pandas, sklearn, re, csv, numpy, seaborn, matplotlib
