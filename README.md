@@ -1,10 +1,5 @@
 # Prediction of the effect of a mutation in an amido acid sequence
 
-## Requirements
-
-```bash
-mkdir data figure
-```
 
 ## Generate the Data files
 
