@@ -115,9 +115,9 @@ def create_data_set(data, max_len = 600, false_set_max = 3000, true_set_max = 30
             
     return training
 
-data= pd.read_csv("../mut_effect_train.csv")
+data= pd.read_csv("datasets/mut_effect_train.csv")
 
-seqs = pd.read_csv("../uniprot_fasta_sequences.csv")
+seqs = pd.read_csv("datasets/uniprot_fasta_sequences.csv")
 
 num_values = 20
 seq_dict = {}
@@ -135,8 +135,8 @@ val_set_600 = training_600[4500:]
 train_set_frame_600 = to_data_frame(train_set_600)
 val_set_frame_600 = to_data_frame(val_set_600)
 
-torch.save(train_set_frame_600, 'train_set_600.csv')
-torch.save(val_set_frame_600, 'val_set_600.csv')
+torch.save(train_set_frame_600, 'datasets/train_set_600.csv')
+torch.save(val_set_frame_600, 'datasets/val_set_600.csv')
 
 
 
@@ -149,5 +149,5 @@ val_set_215 = training_215[800:]
 train_set_frame_215 = to_data_frame(train_set_215)
 val_set_frame_215 = to_data_frame(val_set_215)
 
-torch.save(train_set_frame_215, 'train_set_215.csv')
-torch.save(val_set_frame_215, 'val_set_215.csv')
+torch.save(train_set_frame_215, 'datasets/train_set_215.csv')
+torch.save(val_set_frame_215, 'datasets/val_set_215.csv')
