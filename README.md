@@ -6,7 +6,7 @@
 ### Main datasets
 First, you need to download the folder datasets contained in https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing and put it in the repo (or download the full folder 'datasets'.
 
-N.B. : You can skip all the following generation of data by downloading the folders 'data' and 'datasets' contained in the drive https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing
+N.B. : You can skip all the following generation of data by downloading the folders 'data' contained in the drive https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing
 
 Due to limited computational power, we use the the train set provided by the lab, to create our train set, val set and test set.
 We create one small set composed of sequences with a maximum length of 215 aminoa acids and another bigger one with sequences with a maximum length of 600 aminoa acids.
