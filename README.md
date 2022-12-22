@@ -14,6 +14,10 @@ We create one small set composed of sequences with a maximum length of 215 amino
 To create those datasets, make that the provided files'mut_effect_train.csv' and 'uniprot_fasta_sequences.csv' are contained in the dataset folder, and run the following :
 
 ```bash
+mkdir data
+```
+
+```bash
 python data_creation/create_data_sets.py
 ```
 
@@ -23,7 +27,7 @@ We cut every sequence around the mutation, and keep X amount of amino acids.
 To recreate this data, run the following :
 
 ```bash
-mkdir cut
+mkdir data/cut
 ```
 
 ```bash
@@ -32,6 +36,8 @@ python data_creation/create_cut_data_sets.py
 
 ### Generate sequence features using ProtBert
 
+N.B.: Generate sequence features using ProtBert is a very expensive and long process, with invite you to download the data folder contained in https://drive.google.com/drive/folders/19PUzDqEg_kl-8nWG_Z7C7NDC9BaZTwPw?usp=sharing and put in cloned repo.
+
 Generating sequence features using the ProtBert from amazon takes a long time, therefore we decided to create all features needed in on go and store them in csv files.
 
 Due to limited computational power, we had to save the features for every 10 sequences, and couldn't create just one big files.
@@ -39,12 +45,13 @@ To recreate those files, you should run the following :
 
 If the following folders are not already created :
 
+
 ```bash
-mkdir data_bert_600 data_bert_215 cut/cut_bert
+mkdir data/data_bert_600 data/data_bert_215 data/cut/cut_bert
 ```
 
 ```bash
-mkdir data_bert_600/train data_bert_600/val data_bert_215/train data_bert_215/val cut/cut_bert/cut_5 cut/cut_bert/cut_10 cut/cut_bert/cut_20 cut/cut_bert/cut_50
+mkdir data/data_bert_600/train data/data_bert_600/val data/data_bert_215/train data/data_bert_215/val data/cut/cut_bert/cut_5 data/cut/cut_bert/cut_10 data/cut/cut_bert/cut_20 cut/cut_bert/cut_50
 ```
 
 Then run :
