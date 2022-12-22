@@ -135,8 +135,8 @@ val_set_600 = training_600[4500:]
 train_set_frame_600 = to_data_frame(train_set_600)
 val_set_frame_600 = to_data_frame(val_set_600)
 
-torch.save(train_set_frame_600, 'datasets/train_set_600.csv')
-torch.save(val_set_frame_600, 'datasets/val_set_600.csv')
+torch.save(train_set_frame_600, 'data/train_set_600.csv')
+torch.save(val_set_frame_600, 'data/val_set_600.csv')
 
 
 
@@ -149,5 +149,5 @@ val_set_215 = training_215[800:]
 train_set_frame_215 = to_data_frame(train_set_215)
 val_set_frame_215 = to_data_frame(val_set_215)
 
-torch.save(train_set_frame_215, 'datasets/train_set_215.csv')
-torch.save(val_set_frame_215, 'datasets/val_set_215.csv')
+torch.save(train_set_frame_215, 'data/train_set_215.csv')
+torch.save(val_set_frame_215, 'data/val_set_215.csv')
