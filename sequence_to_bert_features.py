@@ -52,26 +52,26 @@ def save_features_tensors(data, path, when_save = 10):
             training = []
 
 train_set = torch.load('train_set_600.csv')
-load_data_tensors(train_set, 'data_bert_600/train')
+save_features_tensors(train_set, 'data/data_bert_600/train')
 
 val_set = torch.load('val_set_600.csv')
-load_data_tensors(val_set, 'data_bert_600/val')
+save_features_tensors(val_set, 'data/data_bert_600/val')
 
 train_set = torch.load('train_set_215.csv')
-load_data_tensors(train_set, 'data_bert_215/train')
+save_features_tensors(train_set, 'data/data_bert_215/train')
 
 val_set = torch.load('val_set_215.csv')
-load_data_tensors(val_set, 'data_bert_215/val')
+save_features_tensors(val_set, 'data/data_bert_215/val')
 
 val_set_cut_5 = torch.load('cut/val_set_215_cut_5.csv')
-load_data_tensors(val_set_cut_5, 'cut/cut_bert/cut_5')
+save_features_tensors(val_set_cut_5, 'data/cut/cut_bert/cut_5')
 
 val_set_cut_10 = torch.load('cut/val_set_215_cut_10.csv')
-load_data_tensors(val_set_cut_10, 'cut/cut_bert/cut_10')
+save_features_tensors(val_set_cut_10, 'data/cut/cut_bert/cut_10')
 
 val_set_cut_20 = torch.load('cut/val_set_215_cut_20.csv')
-load_data_tensors(val_set_cut_20, 'cut/cut_bert/cut_20')
+save_features_tensors(val_set_cut_20, 'data/cut/cut_bert/cut_20')
 
 val_set_cut_50 = torch.load('cut/val_set_215_cut_50.csv')
-load_data_tensors(val_set_cut_50, 'cut/cut_bert/cut_50')
+save_features_tensors(val_set_cut_50, 'data/cut/cut_bert/cut_50')
 
