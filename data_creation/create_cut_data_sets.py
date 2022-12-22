@@ -66,23 +66,23 @@ def cut_len(data, len_seq):
 df_train_10 = cut_len(train_set, 10)
 df_val_10 = cut_len(val_set, 10)
 
-torch.save(df_train_10, 'cut/train_set_215_cut_10.csv')
-torch.save(df_val_10, 'cut/val_set_215_cut_10.csv')
+torch.save(df_train_10, 'data/cut/train_set_215_cut_10.csv')
+torch.save(df_val_10, 'data/cut/val_set_215_cut_10.csv')
 
 df_train_5 = cut_len(train_set, 5)
 df_val_5 = cut_len(val_set, 5)
 
-torch.save(df_train_5, 'cut/train_set_215_cut_5.csv')
-torch.save(df_val_5, 'cut/val_set_215_cut_5.csv')
+torch.save(df_train_5, 'data/cut/train_set_215_cut_5.csv')
+torch.save(df_val_5, 'data/cut/val_set_215_cut_5.csv')
 
 df_train_20 = cut_len(train_set, 20)
 df_val_20 = cut_len(val_set, 20)
 
-torch.save(df_train_20, 'cut/train_set_215_cut_20.csv')
-torch.save(df_val_20, 'cut/val_set_215_cut_20.csv')
+torch.save(df_train_20, 'data/cut/train_set_215_cut_20.csv')
+torch.save(df_val_20, 'data/cut/val_set_215_cut_20.csv')
 
 df_train_50 = cut_len(train_set, 50)
 df_val_50 = cut_len(val_set, 50)
 
-torch.save(df_train_50, 'cut/train_set_215_cut_50.csv')
-torch.save(df_val_50, 'cut/val_set_215_cut_50.csv')
+torch.save(df_train_50, 'data/cut/train_set_215_cut_50.csv')
+torch.save(df_val_50, 'data/cut/val_set_215_cut_50.csv')
